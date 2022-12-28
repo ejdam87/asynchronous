@@ -4,7 +4,7 @@ import client as c
 
 async def main() -> None:
 
-    port = 8842
+    port = 9051
     server = await s.open_server( port )
     async with server:
         await server.serve_forever()
